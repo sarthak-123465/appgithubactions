@@ -1,10 +1,20 @@
-from src.math_operations import add,sub
+# Assuming this is your test file (e.g., tests/test_math.py)
 
-def test_add(a,b):
-    assert add(2,3) == 5
-    assert add(-1,1) == 0
-    
-def test_sub(a,b):
-    assert sub(5,3) == 2
-    assert sub(4,3) ==1
-    assert sub(1,-1) == 2
+from src.math_operations import add, sub
+
+def test_add():
+    """
+    Test the add function with specific, hardcoded inputs.
+    """
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+    # You can add more assertions here
+
+def test_sub():
+    """
+    Test the subtraction function with specific, hardcoded inputs.
+    """
+    assert sub(5, 3) == 2
+    assert sub(4, 3) == 1
+    assert sub(1, -1) == 2
+    # You can add more assertions here
