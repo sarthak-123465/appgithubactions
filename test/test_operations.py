@@ -1,6 +1,6 @@
 # Assuming this is your test file (e.g., tests/test_math.py)
 
-from src.math_operations import add, sub,prod
+from src.math_operations import add, sub,prod,quotient
 
 def test_add():
     """
@@ -24,3 +24,8 @@ def test_prod():
     assert prod(2,3) == 6
     assert prod(1,0) == 0
     assert prod(-1,3) == -3
+
+def test_quotient():
+    assert quotient(6,3) == 2
+    assert quotient(5,2) == 2.5
+    assert quotient(-6,3) == -2
