@@ -6,3 +6,6 @@ def sub(a,b):
 
 def prod(a,b):
     return a*b
+
+def quotient(a,b):
+    return a/b
