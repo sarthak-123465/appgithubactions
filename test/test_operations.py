@@ -1,6 +1,6 @@
 # Assuming this is your test file (e.g., tests/test_math.py)
 
-from src.math_operations import add, sub
+from src.math_operations import add, sub,prod
 
 def test_add():
     """
@@ -19,3 +19,8 @@ def test_sub():
     assert sub(1, -1) == 2
     assert sub(1,1) == 2
     # You can add more assertions here
+
+def test_prod():
+    assert prod(2,3) == 6
+    assert prod(1,0) == 0
+    assert prod(-1,3) == -3
