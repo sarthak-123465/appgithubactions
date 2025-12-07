@@ -17,4 +17,5 @@ def test_sub():
     assert sub(5, 3) == 2
     assert sub(4, 3) == 1
     assert sub(1, -1) == 2
+    assert sub(1,1) == 2
     # You can add more assertions here
