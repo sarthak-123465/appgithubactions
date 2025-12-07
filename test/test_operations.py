@@ -20,5 +20,6 @@ def test_sub():
     assert sub(1,1) == 0
     # You can add more assertions here
 def test_remainder():
-    assert remainder(4,2) == 2
-    assert remainder(3,3) -==0
+    assert remainder(3,3) ==0
+    assert remainder(5,2) ==1
+    assert remainder(10,3) ==1
