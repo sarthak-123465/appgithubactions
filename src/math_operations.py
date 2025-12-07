@@ -11,3 +11,5 @@ def quotient(a,b):
     return a/b
 
 ## I have done this fucnctionality
+def remainder(a,b):
+    return a%b
